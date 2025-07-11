@@ -49,9 +49,7 @@ const student = {
   lastName: 'Khintkiria',
   age: 30,
   scores: [4, 7, 5, 3, 2],
-  fullName: function() {
-    return this.firstName + " " + this.lastName;
-  }
+ 
 };
 function sumScores(scores) {
   let sum = 0;
